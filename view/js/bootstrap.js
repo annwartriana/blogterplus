@@ -5014,3 +5014,8 @@
 
 })));
 //# sourceMappingURL=bootstrap.js.map
+
+function ConfirmDelete()
+{
+  return confirm("Seguro que desea eliminar?");
+}

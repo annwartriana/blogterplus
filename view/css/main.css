@@ -1,0 +1,374 @@
+/* Fuente Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap');
+
+* {
+    color: #12283b;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body {
+    margin-top: 10px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+.img_logo {
+    width: 200px;
+}
+
+#boton_buscar {
+    color: #12283b;
+    border-color: #12283b;
+}
+
+#boton_buscar:hover {
+    background-color: #1aa3ac;
+}
+
+/* MODAL */
+
+/* Inicio Sesión */
+.btn-signIn {
+    background-color: #4eff7b;
+    border-color: #4eff7b;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 2px;
+}
+
+.btn-signIn:hover {
+    background-color: #20dbd8;
+    border-color: #20dbd8;
+    color: white;
+}
+
+.btn-signUp {
+    color: #fff;
+    padding: 2px 10px;
+    background-color: #147080;
+    border-color: #147080;
+    border-radius: 2px;
+}
+
+.btn-signUp:hover {
+    color: #fff;
+    background-color: #20dbd8;
+    border-color: #20dbd8;
+}
+
+.btn-signUp2 {
+    color: #fff;
+    background-color: #147080;
+    border-color: #147080;
+    border-radius: 2px;
+    padding: 5px 20px;
+}
+
+.btn-signUp2:hover {
+    color: #fff;
+    background-color: #20dbd8;
+    border-color: #20dbd8;
+}
+
+/* MAIN */
+
+/* Sección Presentación */
+/* .hero{
+    min-height: calc(100vh-(footer+));
+} */
+
+.presImg img {
+    border-radius: 5%;
+}
+
+.leeEscCon h3 {
+    color: #124858;
+}
+
+.leeEscCon i {
+    color: #1aa3ac;
+}
+
+/* Sección Recomendacion */
+.recomendacion a {
+    color: white;
+}
+
+.featured-post {
+    min-height: 370px;
+}
+
+.featured-post-inner .featured-post-info {
+    background: rgba(33, 37, 41, 0.39);
+    color: #fff;
+    width: 100%;
+}
+
+.featured-post-inner .featured-post-info h4 {
+    font-size: 20px;
+    color: #fff;
+    padding-left: 35px;
+}
+
+.featured-post-inner .featured-post-info p {
+    font-size: 14px;
+    color: #fff;
+    padding-left: 35px;
+}
+
+.featured-post-inner .featured-post-info .post-meta {
+    font-size: 12px;
+
+}
+
+.post-meta span {
+    color: #fff;
+    padding-right: 35px;
+}
+
+.featured-post-inner.featured-post-1 {
+    background-image: url("/assets/img/post1.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
+.featured-post-inner.featured-post-2 {
+    background-image: url("/assets/img/post2.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.post img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.post h4 {
+    font-size: 18px;
+}
+
+.post h4::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: #806a41;
+    margin-top: 10px;
+}
+
+.post p {
+    font-size: 14px;
+}
+
+.post .post-meta {
+    font-size: 12px;
+
+}
+
+/* FOOTER */
+
+
+.footer_icons a {
+    font-size: 1.5rem;
+    color: #147080;
+}
+
+.footer_icons a:hover {
+    color: #20dbd8;
+}
+
+.footer_enlaces a {
+    color: #124858;
+}
+
+.footer_enlaces a:hover {
+    color: #147080;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+
+/* GÉNEROS */
+
+.carousel_generos img {
+    height: 320px;
+    width: 400px;
+}
+
+.carousel_generos h5 {
+    color: white;
+}
+
+.carousel_generos p {
+    color: white;
+}
+
+.grid_generos li {
+    list-style-type: none;
+    margin: 10px 0;
+
+}
+
+.grid_generos a {
+    text-decoration: none;
+    color: white;
+    background-color: #12283b;
+}
+
+.grid_generos button {
+    text-decoration: none;
+    color: white;
+    background-color: #12283b;
+    border-color: #12283b;
+    margin: 0 2px;
+}
+
+.grid_generos button:hover {
+    background-color: #147080;
+}
+
+/* Géneros Cartas */
+
+.card-genero img {
+    height: 100%;
+
+}
+
+.card-genero h5 {
+    height: 100%;
+
+}
+
+
+
+.color1 {
+    color: #12283b;
+}
+
+.color2 {
+    color: #124858;
+}
+
+.color3 {
+    color: #147080;
+}
+
+.color4 {
+    color: #1aa3ac;
+}
+
+.color5 {
+    color: #20dbd8;
+}
+
+
+/* ------------------------------- */
+
+.prueba {
+    border: 2px solid red;
+}
+
+
+/* -------------writinView.php------------------ */
+.escribir {
+    margin: auto;
+    min-width: 100vw;
+}
+
+.btn-set-write {
+    color: #fff;
+    padding: 2px 2px;
+    background-color: #147080;
+    border-color: #147080;
+    border-radius: 2px;
+    text-align: center;
+
+}
+
+.btn-set-write:hover {
+    color: #fff;
+    background-color: #20dbd8;
+    border-color: #20dbd8;
+}
+
+.btn-cap {
+    text-align: center;
+    padding: 3px 2px;
+}
+
+.btn-editObra {
+    color: #fff;
+    padding: 2px 10px;
+    background-color: #fa7127;
+    border-color: #df6929;
+    border-radius: 2px;
+    text-align: center;
+
+}
+
+.btn-editObra:hover {
+    color: #fff;
+    background-color: #ff5e00;
+    border-color: #ff8341;
+}
+
+.divnewcap {
+    width: 100%;
+}
+
+.divlistcap {
+    background-color: #efeff5;
+}
+
+
+.btn-del {
+    color: #fff;
+    padding: 2px 10px;
+    background-color: #a90909;
+    border-color: #500202;
+    border-radius: 2px;
+    text-align: center;
+    box-shadow: 0 0 0 0.1rem #771829;
+    ;
+}
+
+.btn-del:hover {
+    background-color: red;
+    color: white;
+
+}
+
+.card-caps-tit {
+    background-color: #dadada;
+}
+
+.card-caps-body {
+    background-color: #f1f0f0;
+}
+
+.card-caps-foot {
+    background-color: #fdfdfd;
+}
+
+.btn-perfil {
+    color: #fff;
+    padding: 2px 2px;
+    background-color: #12283b;
+    border-color: #147080;
+    border-radius: 2px;
+    text-align: center;
+
+    
+}
+
+.btn-perfil:hover {
+    color: #fff;
+    background-color: #20dbd8;
+    border-color: #20dbd8;
+}
